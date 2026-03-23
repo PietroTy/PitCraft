@@ -1,0 +1,29 @@
+{
+  "active_instance": "orespawn",
+  "instances": {
+    "orespawn": {
+      "java_path": "/usr/lib/jvm/java-8-openjdk-amd64/bin/java",
+      "jar_file": "forge-1.7.10-10.13.4.1614-1.7.10-universal.jar",
+      "args": "-Xmx8G -Xms4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch",
+      "type": "forge",
+      "description": "Temporada de Orespawn",
+      "seed": ""
+    },
+    "vanilla": {
+      "java_path": "/usr/lib/jvm/java-17-openjdk-amd64/bin/java",
+      "jar_file": "fabric-server-launch.jar",
+      "args": "-Xmx8G -Xms4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch",
+      "type": "fabric",
+      "description": "Temporada Vanilla",
+      "seed": ""
+    },
+    "aether": {
+      "java_path": "/usr/lib/jvm/java-8-openjdk-amd64/bin/java",
+      "jar_file": "forge-1.12.2-14.23.5.2859.jar",
+      "args": "-Xmx8G -Xms4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch",
+      "type": "forge",
+      "description": "Temporada Aether (1.12.2)",
+      "seed": ""
+    }
+  }
+}

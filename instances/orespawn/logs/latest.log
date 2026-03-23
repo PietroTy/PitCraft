@@ -1,0 +1,21 @@
+[18:57:00] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[18:57:02] [Server thread/INFO]: Loading properties
+[18:57:02] [Server thread/INFO]: Default game type: SURVIVAL
+[18:57:02] [Server thread/INFO]: Generating keypair
+[18:57:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:57:02] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:57:02] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:57:02] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:57:02] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:57:02] [Server thread/INFO]: Preparing level "PitCraft"
+[18:57:02] [Server thread/INFO]: Preparing start region for level 0
+[18:57:02] [Server thread/INFO]: Done (0,648s)! For help, type "help" or "?"
+[18:57:12] [Server thread/INFO]: --- Showing help page 1 of 7 (/help <page>) ---
+[18:57:12] [Server thread/INFO]: /achievement give <stat_name> [player]
+[18:57:12] [Server thread/INFO]: /ban <name> [reason ...]
+[18:57:12] [Server thread/INFO]: /ban-ip <address|name> [reason ...]
+[18:57:12] [Server thread/INFO]: /banlist [ips|players]
+[18:57:12] [Server thread/INFO]: /clear <player> [item] [data]
+[18:57:12] [Server thread/INFO]: /debug <start|stop>
+[18:57:12] [Server thread/INFO]: /defaultgamemode <mode>
+[18:57:58] [Server Shutdown Thread/INFO]: Stopping server
