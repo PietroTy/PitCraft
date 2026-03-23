@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Rodar Playit",
+            "type": "shell",
+            "command": "playit",
+            "runOptions": { "runOn": "folderOpen" },
+            "presentation": { "group": "servidor", "panel": "dedicated" }
+        },
+        {
+            "label": "Rodar Minecraft",
+            "type": "shell",
+            "command": "./start.sh",
+            "runOptions": { "runOn": "folderOpen" },
+            "presentation": { "group": "servidor", "panel": "dedicated" }
+        }
+    ]
+}

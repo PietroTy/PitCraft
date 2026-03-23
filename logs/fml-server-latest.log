@@ -1,0 +1,534 @@
+[00:10:04] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[00:10:04] [main/INFO] [FML/]: Forge Mod Loader version 7.99.40.1614 for Minecraft 1.7.10 loading
+[00:10:04] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_482, running on Linux:amd64:6.8.0-1044-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[00:10:04] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[00:10:04] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+[00:10:04] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[00:10:04] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[00:10:04] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[00:10:04] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[00:10:04] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[00:10:04] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[00:10:04] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[00:10:04] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[00:10:04] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /workspaces/PitCraft/.
+[00:10:04] [main/DEBUG] [FML/]: Discovering coremods
+[00:10:04] [main/DEBUG] [FML/]: Examining for coremod candidacy orespawn-1.7.10-20.3.jar
+[00:10:04] [main/DEBUG] [FML/]: Not found coremod data in orespawn-1.7.10-20.3.jar
+[00:10:04] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:10:04] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[00:10:04] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:10:04] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:10:04] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:10:04] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[00:10:04] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[00:10:04] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[00:10:04] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[00:10:04] [main/DEBUG] [FML/]: Injection complete
+[00:10:04] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[00:10:04] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[00:10:05] [main/DEBUG] [FML/]: Read 527 binary patches
+[00:10:06] [main/ERROR] [FML/]: FML appears to be missing any signature data. This is not a good thing
+[00:10:06] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[00:10:06] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:10:06] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[00:10:06] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[00:10:06] [main/DEBUG] [FML/]: Injection complete
+[00:10:06] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[00:10:06] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[00:10:06] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[00:10:06] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[00:10:06] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[00:10:06] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[00:10:06] [main/DEBUG] [FML/]: Validating minecraft
+[00:10:06] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[00:10:06] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[00:10:06] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[00:10:07] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[00:10:09] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[00:10:09] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[00:10:10] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[00:10:10] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[00:10:10] [Server thread/DEBUG] [FML/]: File /workspaces/PitCraft/config/injectedDependencies.json not found. No dependencies injected
+[00:10:10] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[00:10:10] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[00:10:10] [Server thread/DEBUG] [FML/]: Minecraft is a file at /workspaces/PitCraft/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar, loading
+[00:10:10] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[00:10:10] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[00:10:10] [Server thread/INFO] [FML/]: Searching /workspaces/PitCraft/mods for mods
+[00:10:10] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file orespawn-1.7.10-20.3.jar
+[00:10:10] [Server thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1614-1.7.10-universal.jar for potential mods
+[00:10:10] [Server thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1614-1.7.10-universal.jar appears to be missing an mcmod.info file
+[00:10:10] [Server thread/DEBUG] [FML/]: Examining file orespawn-1.7.10-20.3.jar for potential mods
+[00:10:10] [Server thread/TRACE] [FML/]: Located mcmod.info file in file orespawn-1.7.10-20.3.jar
+[00:10:10] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (danger.orespawn.OreSpawnMain) - loading
+[00:10:10] [Server thread/TRACE] [OreSpawn/]: Parsed dependency info : [] [] []
+[00:10:10] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 4 mods to load
+[00:10:10] [Server thread/TRACE] [FML/]: Received a system property request ''
+[00:10:10] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[00:10:10] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[00:10:10] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[00:10:10] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1614-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[00:10:10] [Server thread/DEBUG] [OreSpawn/]: Enabling mod OreSpawn
+[00:10:10] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[00:10:10] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[00:10:10] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[00:10:10] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[00:10:10] [Server thread/DEBUG] [FML/]: Mod sorting data
+[00:10:10] [Server thread/DEBUG] [FML/]: 	OreSpawn(OreSpawn:1.7.10.20.3): orespawn-1.7.10-20.3.jar ()
+[00:10:10] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[00:10:10] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[00:10:10] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[00:10:10] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[00:10:10] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[00:10:10] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[00:10:10] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[00:10:10] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, OreSpawn] at CLIENT
+[00:10:10] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, OreSpawn] at SERVER
+[00:10:11] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[00:10:11] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.208s
+[00:10:11] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[00:10:11] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[00:10:11] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[00:10:11] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1614)
+[00:10:11] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[00:10:11] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.010s
+[00:10:11] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLConstructionEvent to mod OreSpawn
+[00:10:11] [Server thread/TRACE] [FML/OreSpawn]: Mod OreSpawn is using network checker : Accepting version 1.7.10.20.3
+[00:10:11] [Server thread/TRACE] [FML/OreSpawn]: Testing mod OreSpawn to verify it accepts its own version in a remote connection
+[00:10:11] [Server thread/TRACE] [FML/OreSpawn]: The mod OreSpawn accepts its own version (1.7.10.20.3)
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Attempting to inject @SidedProxy classes into OreSpawn
+[00:10:11] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLConstructionEvent to mod OreSpawn
+[00:10:11] [Server thread/DEBUG] [FML/]: Bar Step: Construction - OreSpawn took 0.255s
+[00:10:11] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0.475s
+[00:10:11] [Server thread/DEBUG] [FML/]: Mod signature data
+[00:10:11] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[00:10:11] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[00:10:11] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[00:10:11] [Server thread/DEBUG] [FML/]: 		FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[00:10:11] [Server thread/DEBUG] [FML/]: 		Forge	(Minecraft Forge	10.13.4.1614)	forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+[00:10:11] [Server thread/DEBUG] [FML/]: 		OreSpawn	(OreSpawn	1.7.10.20.3)	orespawn-1.7.10-20.3.jar
+[00:10:11] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[00:10:11] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[00:10:11] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[00:10:11] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[00:10:11] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[00:10:11] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[00:10:11] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[00:10:11] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[00:10:11] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[00:10:11] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[00:10:11] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[00:10:11] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[00:10:11] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[00:10:11] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.036s
+[00:10:11] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLPreInitializationEvent to mod OreSpawn
+[00:10:11] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[00:10:11] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:815)
+[00:10:11] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:768)
+[00:10:11] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:717)
+[00:10:11] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:689)
+[00:10:11] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:94)
+[00:10:11] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[00:10:11] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+[00:10:11] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183)
+[00:10:11] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+[00:10:11] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	at com.google.gson.Gson.fromJson(Gson.java:803)
+[00:10:11] [Forge Version Check/INFO] [STDERR/Forge]: [java.lang.Throwable$WrappedPrintStream:println:749]: 	... 4 more
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.SunspotUrchin
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.WaterBall
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.InkSack
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.LaserBall
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.IceBall
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Acid
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.DeadIrukandji
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.BerthaHit
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.PurplePower
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityThrownRock
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Girlfriend
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.RedCow
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.GoldCow
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EnchantedCow
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityButterfly
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityLunaMoth
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityMosquito
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Firefly
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Bee
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Mothra
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityAnt
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityRedAnt
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityRainbowAnt
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityUnstableAnt
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Robot1
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Robot2
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Robot3
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Robot4
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Robot5
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Alosaurus
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Cryolophosaurus
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Basilisk
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Camarasaurus
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Hydrolisc
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.VelocityRaptor
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Dragonfly
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EmperorScorpion
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Scorpion
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.CaveFisher
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Spyro
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Baryonyx
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.GammaMetroid
+[00:10:11] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Cockateil
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.RubyBird
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Kyuubi
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.WaterDragon
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.AttackSquid
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Alien
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Elevator
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Kraken
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Lizard
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Cephadrome
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Dragon
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Chipmunk
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Gazelle
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Ostrich
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.TrooperBug
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.SpitBug
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.StinkBug
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Tshirt
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Island
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.IslandToo
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.CreepingHorror
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.TerribleTerror
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.CliffRacer
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Triffid
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.PitchBlack
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.LurkingTerror
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Godzilla
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Ghost
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.GhostSkelly
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.WormSmall
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.WormMedium
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.WormLarge
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Cassowary
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.CloudShark
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.GoldFish
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.LeafMonster
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.GodzillaHead
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EnderKnight
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EnderReaper
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Beaver
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Termite
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Fairy
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Peacock
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Rotator
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Vortex
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.DungeonBeast
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Rat
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Flounder
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Whale
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Irukandji
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Skate
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Urchin
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Mantis
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.HerculesBeetle
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.TRex
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Stinky
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Coin
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.TheKing
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.KingHead
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.TheQueen
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.QueenHead
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Boyfriend
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.ThePrince
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Molenoid
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.SeaMonster
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.SeaViper
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EasterBunny
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.CaterKiller
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.CrystalCow
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Leon
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Hammerhead
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.RubberDucky
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.ThePrinceTeen
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.BandP
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.RockBase
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Brutalfly
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Nastysaurus
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Pointysaurus
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Cricket
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.ThePrincess
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Frog
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.ThePrinceAdult
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.SpiderRobot
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.SpiderDriver
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.GiantRobot
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.AntRobot
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Crab
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.Shoes
+[00:10:12] [Server thread/DEBUG] [FML/OreSpawn]: Skipping automatic mod OreSpawn entity registration for already registered class danger.orespawn.EntityCage
+[00:10:12] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLPreInitializationEvent to mod OreSpawn
+[00:10:12] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - OreSpawn took 1.484s
+[00:10:12] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 1.521s
+[00:10:12] [Server thread/INFO] [FML/]: Applying holder lookups
+[00:10:12] [Server thread/INFO] [FML/]: Holder lookups applied
+[00:10:12] [Server thread/INFO] [FML/]: Injecting itemstacks
+[00:10:12] [Server thread/INFO] [FML/]: Itemstack injection complete
+[00:10:13] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[00:10:13] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[00:10:13] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[00:10:13] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[00:10:13] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[00:10:13] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[00:10:13] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLInitializationEvent to mod OreSpawn
+[00:10:13] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLInitializationEvent to mod OreSpawn
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - OreSpawn took 0.003s
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.004s
+[00:10:13] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[00:10:13] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[00:10:13] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.004s
+[00:10:13] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[00:10:13] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[00:10:13] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[00:10:13] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[00:10:13] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[00:10:13] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[00:10:13] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod OreSpawn
+[00:10:13] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event IMCEvent to mod OreSpawn
+[00:10:13] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event IMCEvent to mod OreSpawn
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - OreSpawn took 0.000s
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.006s
+[00:10:13] [Server thread/INFO] [FML/]: Injecting itemstacks
+[00:10:13] [Server thread/INFO] [FML/]: Itemstack injection complete
+[00:10:13] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[00:10:13] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[00:10:13] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[00:10:13] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[00:10:13] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[00:10:13] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.016s
+[00:10:13] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLPostInitializationEvent to mod OreSpawn
+[00:10:13] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLPostInitializationEvent to mod OreSpawn
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - OreSpawn took 0.024s
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.041s
+[00:10:13] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[00:10:13] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.001s
+[00:10:13] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[00:10:13] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.001s
+[00:10:13] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[00:10:13] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[00:10:13] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Before", UNKNOWN, )
+[00:10:13] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[00:10:13] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[00:10:13] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[00:10:13] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[00:10:13] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[00:10:13] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[00:10:13] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[00:10:13] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[00:10:13] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[00:10:13] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[00:10:13] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
+[00:10:13] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.016s
+[00:10:13] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLLoadCompleteEvent to mod OreSpawn
+[00:10:13] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLLoadCompleteEvent to mod OreSpawn
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - OreSpawn took 0.000s
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.018s
+[00:10:13] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
+[00:10:13] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[00:10:13] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[00:10:13] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 4 mods
+[00:10:13] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[00:10:13] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
+[00:10:13] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[00:10:13] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.003s
+[00:10:13] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[00:10:13] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.001s
+[00:10:13] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLServerAboutToStartEvent to mod OreSpawn
+[00:10:13] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLServerAboutToStartEvent to mod OreSpawn
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - OreSpawn took 0.002s
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.006s
+[00:10:13] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[00:10:13] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[00:10:13] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[00:10:13] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[00:10:13] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.002s
+[00:10:13] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[00:10:13] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[00:10:13] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[00:10:13] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.008s
+[00:10:13] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLModIdMappingEvent to mod OreSpawn
+[00:10:13] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLModIdMappingEvent to mod OreSpawn
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - OreSpawn took 0.000s
+[00:10:13] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.011s
+[00:10:13] [Server thread/INFO] [FML/]: Applying holder lookups
+[00:10:13] [Server thread/INFO] [FML/]: Holder lookups applied
+[00:10:13] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[00:10:13] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[00:10:13] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[00:10:13] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@4eba9ce4)
+[00:10:13] [Server thread/INFO] [FML/]: Loading dimension 85 (world) (net.minecraft.server.dedicated.DedicatedServer@4eba9ce4)
+[00:10:13] [Server thread/INFO] [FML/]: Loading dimension 84 (world) (net.minecraft.server.dedicated.DedicatedServer@4eba9ce4)
+[00:10:13] [Server thread/INFO] [FML/]: Loading dimension 83 (world) (net.minecraft.server.dedicated.DedicatedServer@4eba9ce4)
+[00:10:13] [Server thread/INFO] [FML/]: Loading dimension 82 (world) (net.minecraft.server.dedicated.DedicatedServer@4eba9ce4)
+[00:10:13] [Server thread/INFO] [FML/]: Loading dimension 81 (world) (net.minecraft.server.dedicated.DedicatedServer@4eba9ce4)
+[00:10:13] [Server thread/INFO] [FML/]: Loading dimension 80 (world) (net.minecraft.server.dedicated.DedicatedServer@4eba9ce4)
+[00:10:13] [Server thread/INFO] [FML/]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@4eba9ce4)
+[00:10:13] [Server thread/INFO] [FML/]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@4eba9ce4)
+[00:10:14] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[00:10:14] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[00:10:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[00:10:14] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[00:10:14] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[00:10:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.001s
+[00:10:14] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[00:10:14] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[00:10:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.004s
+[00:10:14] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLServerStartingEvent to mod OreSpawn
+[00:10:14] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLServerStartingEvent to mod OreSpawn
+[00:10:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - OreSpawn took 0.001s
+[00:10:14] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.006s
+[00:10:14] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[00:10:14] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[00:10:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[00:10:14] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[00:10:14] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[00:10:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.002s
+[00:10:14] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[00:10:14] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[00:10:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[00:10:14] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sending event FMLServerStartedEvent to mod OreSpawn
+[00:10:14] [Server thread/TRACE] [OreSpawn/OreSpawn]: Sent event FMLServerStartedEvent to mod OreSpawn
+[00:10:14] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - OreSpawn took 0.000s
+[00:10:14] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.003s
+[00:10:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:11:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:12:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:13:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:13:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:14:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:15:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:16:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:16:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:17:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:18:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:19:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:19:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:20:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:21:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:22:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:22:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:23:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:24:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:25:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:25:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:26:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:27:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:28:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:28:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:29:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:30:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:31:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:31:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:32:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:33:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:34:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:34:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:35:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:36:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:37:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:37:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:38:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:39:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:40:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:40:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:41:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:42:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:43:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:43:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:44:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:45:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:46:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:46:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:47:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:48:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:49:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:49:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:50:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:51:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:52:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:52:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:53:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:54:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:55:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:55:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:56:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:57:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:58:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:58:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[00:59:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:00:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:01:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:01:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:02:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:03:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:04:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:04:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:05:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:06:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:07:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:07:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:08:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:09:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:10:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:10:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:11:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:12:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:13:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:13:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:14:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:15:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:16:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:16:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:17:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:18:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:19:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:19:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:20:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:21:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:22:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:22:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:23:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:24:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:25:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:25:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:26:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:27:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:28:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:28:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:29:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:30:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:31:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:31:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:32:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:33:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:34:14] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:34:59] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:35:44] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[01:36:29] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world

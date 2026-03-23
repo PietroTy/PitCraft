@@ -1,0 +1,8 @@
+#!/bin/bash
+while true
+do
+  # Usando o caminho direto do Java 8 para não dar erro
+  /usr/lib/jvm/java-8-openjdk-amd64/bin/java -Xmx8G -Xms4G -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar nogui
+  echo "Reiniciando em 5 segundos..."
+  sleep 5
+done
