@@ -152,12 +152,18 @@ start_server() {
     # 4. Rodar o servidor
     cd "$INSTANCES_DIR/$ACTIVE" || exit
     
-    # Reset de terminal para evitar sujeira de execuções anteriores
-    stty sane
-    stty icrnl echo
-
     echo "Iniciando Java..."
-    exec "$JAVA_PATH" $ARGS -jar "$JAR_FILE" nogui
+
+    # Garante que o terminal mostre o que o usuário digita
+    stty echo
+
+    # Roda o servidor limpando a saída:
+    # - Remove sequências ANSI de posicionamento/cor (causa da bagunça)
+    # - Remove caracteres \r
+    "$JAVA_PATH" $ARGS \
+        -Djline.terminal=jline.UnsupportedTerminal \
+        -Dfml.queryResult=confirm \
+        -jar "$JAR_FILE" nogui 2>&1 | stdbuf -oL sed 's/\x1b\[[0-9;]*[a-zA-Z]//g; s/\r//g'
 }
 
 # Função para realizar backup do mundo (Diário e Semanal)
