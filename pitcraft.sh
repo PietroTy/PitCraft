@@ -3,7 +3,6 @@
 # --- Configurações ---
 CONFIG_FILE="config.json"
 INSTANCES_DIR="instances"
-PLAYIT_LOG="playit_log.txt"
 
 # --- Funções ---
 
@@ -92,6 +91,13 @@ setup_instance() {
                 echo "level-seed=$SEED" >> "$DIR/server.properties"
             fi
         fi
+
+        # Forçar porta 13377 para garantir DuckDNS
+        if grep -q "^server-port=" "$DIR/server.properties"; then
+            sed -i "s/^server-port=.*/server-port=13377/" "$DIR/server.properties"
+        else
+            echo "server-port=13377" >> "$DIR/server.properties"
+        fi
     else
         cat <<EOF > "$DIR/server.properties"
 level-name=PitCraft
@@ -100,6 +106,7 @@ EOF
         if [ "$SEED" != "null" ] && [ "$SEED" != "" ]; then
             echo "level-seed=$SEED" >> "$DIR/server.properties"
         fi
+        echo "server-port=13377" >> "$DIR/server.properties"
     fi
 
     # 3. Definir TyREXy_ como OP
@@ -142,11 +149,22 @@ start_server() {
     echo "Subindo Hub PitCraft..."
     echo "Instância: $ACTIVE"
 
-    # 3. Iniciar Playit se necessário
-    if ! pgrep -x "playit" > /dev/null; then
-        echo "Iniciando Playit em segundo plano..."
-        playit < /dev/null > "$PLAYIT_LOG" 2>&1 &
-        disown
+    # 3. Iniciar atualizador DuckDNS
+    if [ -f ".env" ]; then
+        source .env
+    fi
+
+    if [ -n "$DUCKDNS_DOMAIN" ] && [ -n "$DUCKDNS_TOKEN" ]; then
+        echo "Iniciando atualizador DuckDNS ($DUCKDNS_DOMAIN.duckdns.org) em segundo plano..."
+        (
+            while true; do
+                curl -s "https://www.duckdns.org/update?domains=$DUCKDNS_DOMAIN&token=$DUCKDNS_TOKEN&ip=" > /dev/null
+                sleep 300
+            done
+        ) &
+        DUCKDNS_PID=$!
+    else
+        echo "Aviso: DUCKDNS_DOMAIN ou DUCKDNS_TOKEN não configurados no arquivo .env. Pulando atualização."
     fi
 
     # 4. Rodar o servidor
@@ -164,6 +182,12 @@ start_server() {
         -Djline.terminal=jline.UnsupportedTerminal \
         -Dfml.queryResult=confirm \
         -jar "$JAR_FILE" nogui 2>&1 | stdbuf -oL sed 's/\x1b\[[0-9;]*[a-zA-Z]//g; s/\r//g'
+
+    # Servidor fechou, matar atualizador DuckDNS
+    if [ -n "$DUCKDNS_PID" ]; then
+        echo "Servidor encerrado. Parando atualizador DuckDNS..."
+        kill $DUCKDNS_PID 2>/dev/null
+    fi
 }
 
 # Função para realizar backup do mundo (Diário e Semanal)

@@ -1,0 +1,15 @@
+# Segredos
+.env
+
+# Backups e Logs
+backups/
+*.log
+playit_log.txt
+
+# Instâncias Pesadas do Minecraft
+instances/*/world/
+instances/*/PitCraft/
+instances/*/logs/
+instances/*/crash-reports/
+
+# Fica a seu critério se envia ou não o config.json, que carrega sua seed. Mas o importante é esconder coisas muito pesadas ou com credenciais.
