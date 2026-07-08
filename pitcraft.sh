@@ -98,15 +98,23 @@ setup_instance() {
         else
             echo "server-port=13377" >> "$DIR/server.properties"
         fi
+
+        # Forçar online-mode=false
+        if grep -q "^online-mode=" "$DIR/server.properties"; then
+            sed -i "s/^online-mode=.*/online-mode=false/" "$DIR/server.properties"
+        else
+            echo "online-mode=false" >> "$DIR/server.properties"
+        fi
     else
         cat <<EOF > "$DIR/server.properties"
 level-name=PitCraft
 motd=PitCraft - $DESCRIPTION
+server-port=13377
+online-mode=false
 EOF
         if [ "$SEED" != "null" ] && [ "$SEED" != "" ]; then
             echo "level-seed=$SEED" >> "$DIR/server.properties"
         fi
-        echo "server-port=13377" >> "$DIR/server.properties"
     fi
 
     # 3. Definir TyREXy_ como OP
@@ -170,18 +178,32 @@ start_server() {
     # 4. Rodar o servidor
     cd "$INSTANCES_DIR/$ACTIVE" || exit
     
-    echo "Iniciando Java..."
-
     # Garante que o terminal mostre o que o usuário digita
     stty echo
+
+    # Se existir user_jvm_args.txt, atualiza com os argumentos do config.json
+    if [ -f "user_jvm_args.txt" ]; then
+        echo "# Gerado automaticamente pelo PitCraft" > user_jvm_args.txt
+        for arg in $ARGS; do
+            echo "$arg" >> user_jvm_args.txt
+        done
+    fi
 
     # Roda o servidor limpando a saída:
     # - Remove sequências ANSI de posicionamento/cor (causa da bagunça)
     # - Remove caracteres \r
-    "$JAVA_PATH" $ARGS \
-        -Djline.terminal=jline.UnsupportedTerminal \
-        -Dfml.queryResult=confirm \
-        -jar "$JAR_FILE" nogui 2>&1 | stdbuf -oL sed 's/\x1b\[[0-9;]*[a-zA-Z]//g; s/\r//g'
+    if [ -f "./run.sh" ]; then
+        echo "Iniciando servidor moderno via run.sh..."
+        chmod +x ./run.sh
+        JAVA_DIR=$(dirname "$JAVA_PATH")
+        PATH="$JAVA_DIR:$PATH" ./run.sh nogui 2>&1 | stdbuf -oL sed 's/\x1b\[[0-9;]*[a-zA-Z]//g; s/\r//g'
+    else
+        echo "Iniciando Java..."
+        "$JAVA_PATH" $ARGS \
+            -Djline.terminal=jline.UnsupportedTerminal \
+            -Dfml.queryResult=confirm \
+            -jar "$JAR_FILE" nogui 2>&1 | stdbuf -oL sed 's/\x1b\[[0-9;]*[a-zA-Z]//g; s/\r//g'
+    fi
 
     # Servidor fechou, matar atualizador DuckDNS
     if [ -n "$DUCKDNS_PID" ]; then

@@ -1,5 +1,5 @@
 {
-  "active_instance": "orespawn",
+  "active_instance": "aether",
   "instances": {
     "orespawn": {
       "java_path": "/usr/lib/jvm/java-8-openjdk-amd64/bin/java",
@@ -14,15 +14,39 @@
       "jar_file": "fabric-server-launch.jar",
       "args": "-Xmx8G -Xms4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch",
       "type": "fabric",
-      "description": "Temporada Vanilla",
+      "description": "Vanilão D'Cria",
       "seed": ""
     },
     "aether": {
-      "java_path": "/usr/lib/jvm/java-8-openjdk-amd64/bin/java",
-      "jar_file": "forge-1.12.2-14.23.5.2859.jar",
+      "java_path": "/usr/lib/jvm/java-21-openjdk-amd64/bin/java",
+      "jar_file": "neoforge-21.1.235-server.jar",
+      "args": "-Xmx8G -Xms4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch",
+      "type": "neoforge",
+      "description": "Aether & Twilight",
+      "seed": ""
+    },
+    "twc": {
+      "java_path": "/usr/lib/jvm/java-17-openjdk-amd64/bin/java",
+      "jar_file": "forge-1.16.5-36.2.34.jar",
       "args": "-Xmx8G -Xms4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch",
       "type": "forge",
-      "description": "Temporada Aether (1.12.2)",
+      "description": "Temporada TWC (1.16.5)",
+      "seed": ""
+    },
+    "rlcraft": {
+      "java_path": "/usr/lib/jvm/java-8-openjdk-amd64/bin/java",
+      "jar_file": "forge-1.12.2-14.23.5.2860.jar",
+      "args": "-Xmx8G -Xms4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch",
+      "type": "forge",
+      "description": "Temporada RLCraft (1.12.2)",
+      "seed": ""
+    },
+    "avaritia": {
+      "java_path": "/usr/lib/jvm/java-8-openjdk-amd64/bin/java",
+      "jar_file": "forge-1.7.10-10.13.4.1614-1.7.10-universal.jar",
+      "args": "-Xmx8G -Xms4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch",
+      "type": "forge",
+      "description": "Temporada Avaritia (1.7.10)",
       "seed": ""
     }
   }
