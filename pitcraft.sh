@@ -117,13 +117,34 @@ EOF
         fi
     fi
 
-    # 3. Definir TyREXy_ como OP
-    echo "TyREXy_" > "$DIR/ops.txt"
+    # 3. Definir TyREXy_ e VoltarkDG como OP
+    cat <<EOF > "$DIR/ops.txt"
+TyREXy_
+VoltarkDG
+EOF
     cat <<EOF > "$DIR/ops.json"
 [
   {
     "uuid": "4890c008-8cc4-3866-ab5d-c6974fed7906",
     "name": "TyREXy_",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f3ebe295-6e44-310c-b90e-0730d59291dc",
+    "name": "TyREXy_",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d11bfb6b-db42-4bcc-9b72-98e8192f4198",
+    "name": "VoltarkDG",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f3ff5efa-a366-333c-9521-0e45eb6191b6",
+    "name": "VoltarkDG",
     "level": 4,
     "bypassesPlayerLimit": false
   }
