@@ -7,3 +7,5 @@
 -XX:+UnlockExperimentalVMOptions
 -XX:+DisableExplicitGC
 -XX:+AlwaysPreTouch
+-Dterminal.jline=false
+-Djline.terminal=jline.UnsupportedTerminal

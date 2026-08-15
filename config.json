@@ -20,7 +20,7 @@
     "aether": {
       "java_path": "/usr/lib/jvm/java-21-openjdk-amd64/bin/java",
       "jar_file": "neoforge-21.1.235-server.jar",
-      "args": "-Xmx8G -Xms4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch",
+      "args": "-Xmx8G -Xms4G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -Dterminal.jline=false -Djline.terminal=jline.UnsupportedTerminal",
       "type": "neoforge",
       "description": "Aether & Twilight",
       "seed": ""
